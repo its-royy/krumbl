@@ -1,0 +1,1504 @@
+<?xml version='1.0' encoding='utf-8'?>
+<kml xmlns="http://www.opengis.net/kml/2.2" xmlns:gx="http://www.google.com/kml/ext/2.2">
+	<Document>
+		<name>CAMBRIA.kml</name>
+		<Schema name="Substations" id="Substations102">
+			<SimpleField type="int" name="OBJECTID"></SimpleField>
+			<SimpleField type="string" name="ID"></SimpleField>
+			<SimpleField type="string" name="CITY"></SimpleField>
+			<SimpleField type="string" name="STATE"></SimpleField>
+			<SimpleField type="string" name="ZIP"></SimpleField>
+			<SimpleField type="string" name="TYPE"></SimpleField>
+			<SimpleField type="string" name="STATUS"></SimpleField>
+			<SimpleField type="string" name="COUNTY"></SimpleField>
+			<SimpleField type="string" name="COUNTYFIPS"></SimpleField>
+			<SimpleField type="string" name="COUNTRY"></SimpleField>
+			<SimpleField type="float" name="LATITUDE"></SimpleField>
+			<SimpleField type="float" name="LONGITUDE"></SimpleField>
+			<SimpleField type="string" name="NAICS_CODE"></SimpleField>
+			<SimpleField type="string" name="NAICS_DESC"></SimpleField>
+			<SimpleField type="string" name="SOURCE"></SimpleField>
+			<SimpleField type="string" name="SOURCEDATE"></SimpleField>
+			<SimpleField type="string" name="VAL_METHOD"></SimpleField>
+			<SimpleField type="string" name="VAL_DATE"></SimpleField>
+			<SimpleField type="int" name="LINES"></SimpleField>
+			<SimpleField type="int" name="MAX_VOLT"></SimpleField>
+			<SimpleField type="int" name="MIN_VOLT"></SimpleField>
+			<SimpleField type="int" name="CAPACITY"></SimpleField>
+			<SimpleField type="string" name="MAX_INFER"></SimpleField>
+			<SimpleField type="string" name="MIN_INFER"></SimpleField>
+		</Schema>
+		<Style id="inline">
+			<LineStyle>
+				<color>ffffff00</color>
+				<width>3</width>
+			</LineStyle>
+			<PolyStyle>
+				<fill>0</fill>
+			</PolyStyle>
+		</Style>
+		<StyleMap id="inline0">
+			<Pair>
+				<key>normal</key>
+				<styleUrl>#inline12</styleUrl>
+			</Pair>
+			<Pair>
+				<key>highlight</key>
+				<styleUrl>#inline3</styleUrl>
+			</Pair>
+		</StyleMap>
+		<StyleMap id="inline00">
+			<Pair>
+				<key>normal</key>
+				<styleUrl>#inline100</styleUrl>
+			</Pair>
+			<Pair>
+				<key>highlight</key>
+				<styleUrl>#inline300</styleUrl>
+			</Pair>
+		</StyleMap>
+		<Style id="inline01">
+			<LineStyle>
+				<color>ffff00aa</color>
+				<width>3</width>
+			</LineStyle>
+			<PolyStyle>
+				<fill>0</fill>
+			</PolyStyle>
+		</Style>
+		<StyleMap id="inline010">
+			<Pair>
+				<key>normal</key>
+				<styleUrl>#inline6</styleUrl>
+			</Pair>
+			<Pair>
+				<key>highlight</key>
+				<styleUrl>#inline11</styleUrl>
+			</Pair>
+		</StyleMap>
+		<Style id="inline02">
+			<LineStyle>
+				<color>ffffff00</color>
+				<width>3</width>
+			</LineStyle>
+			<PolyStyle>
+				<fill>0</fill>
+			</PolyStyle>
+		</Style>
+		<StyleMap id="inline03">
+			<Pair>
+				<key>normal</key>
+				<styleUrl>#inline16</styleUrl>
+			</Pair>
+			<Pair>
+				<key>highlight</key>
+				<styleUrl>#inline1</styleUrl>
+			</Pair>
+		</StyleMap>
+		<Style id="inline1">
+			<LineStyle>
+				<color>ffff00aa</color>
+				<width>3</width>
+			</LineStyle>
+			<PolyStyle>
+				<fill>0</fill>
+			</PolyStyle>
+		</Style>
+		<Style id="inline10">
+			<LineStyle>
+				<color>ffff00aa</color>
+				<width>3</width>
+			</LineStyle>
+			<PolyStyle>
+				<fill>0</fill>
+			</PolyStyle>
+		</Style>
+		<Style id="inline100">
+			<LineStyle>
+				<color>ffff00aa</color>
+				<width>3</width>
+			</LineStyle>
+			<PolyStyle>
+				<fill>0</fill>
+			</PolyStyle>
+		</Style>
+		<Style id="inline11">
+			<LineStyle>
+				<color>ffff00aa</color>
+				<width>3</width>
+			</LineStyle>
+			<PolyStyle>
+				<fill>0</fill>
+			</PolyStyle>
+		</Style>
+		<Style id="inline12">
+			<LineStyle>
+				<color>ffff00aa</color>
+				<width>3</width>
+			</LineStyle>
+			<PolyStyle>
+				<fill>0</fill>
+			</PolyStyle>
+		</Style>
+		<Style id="inline13">
+			<LineStyle>
+				<color>ffff00aa</color>
+				<width>3</width>
+			</LineStyle>
+			<PolyStyle>
+				<fill>0</fill>
+			</PolyStyle>
+		</Style>
+		<Style id="inline14">
+			<LineStyle>
+				<color>ffffff00</color>
+				<width>3</width>
+			</LineStyle>
+			<PolyStyle>
+				<fill>0</fill>
+			</PolyStyle>
+		</Style>
+		<Style id="inline140">
+			<LineStyle>
+				<color>ffff00aa</color>
+				<width>3</width>
+			</LineStyle>
+			<PolyStyle>
+				<fill>0</fill>
+			</PolyStyle>
+		</Style>
+		<StyleMap id="inline15">
+			<Pair>
+				<key>normal</key>
+				<styleUrl>#inline24</styleUrl>
+			</Pair>
+			<Pair>
+				<key>highlight</key>
+				<styleUrl>#inline13</styleUrl>
+			</Pair>
+		</StyleMap>
+		<Style id="inline16">
+			<LineStyle>
+				<color>ffff00aa</color>
+				<width>3</width>
+			</LineStyle>
+			<PolyStyle>
+				<fill>0</fill>
+			</PolyStyle>
+		</Style>
+		<Style id="inline17">
+			<LineStyle>
+				<color>ffff00aa</color>
+				<width>3</width>
+			</LineStyle>
+			<PolyStyle>
+				<fill>0</fill>
+			</PolyStyle>
+		</Style>
+		<StyleMap id="inline18">
+			<Pair>
+				<key>normal</key>
+				<styleUrl>#inline22</styleUrl>
+			</Pair>
+			<Pair>
+				<key>highlight</key>
+				<styleUrl>#inline17</styleUrl>
+			</Pair>
+		</StyleMap>
+		<StyleMap id="inline2">
+			<Pair>
+				<key>normal</key>
+				<styleUrl>#inline23</styleUrl>
+			</Pair>
+			<Pair>
+				<key>highlight</key>
+				<styleUrl>#inline21</styleUrl>
+			</Pair>
+		</StyleMap>
+		<Style id="inline20">
+			<LineStyle>
+				<color>ffff00aa</color>
+				<width>3</width>
+			</LineStyle>
+			<PolyStyle>
+				<fill>0</fill>
+			</PolyStyle>
+		</Style>
+		<Style id="inline21">
+			<LineStyle>
+				<color>ffff00aa</color>
+				<width>3</width>
+			</LineStyle>
+			<PolyStyle>
+				<fill>0</fill>
+			</PolyStyle>
+		</Style>
+		<Style id="inline22">
+			<LineStyle>
+				<color>ffff00aa</color>
+				<width>3</width>
+			</LineStyle>
+			<PolyStyle>
+				<fill>0</fill>
+			</PolyStyle>
+		</Style>
+		<Style id="inline23">
+			<LineStyle>
+				<color>ffff00aa</color>
+				<width>3</width>
+			</LineStyle>
+			<PolyStyle>
+				<fill>0</fill>
+			</PolyStyle>
+		</Style>
+		<Style id="inline24">
+			<LineStyle>
+				<color>ffff00aa</color>
+				<width>3</width>
+			</LineStyle>
+			<PolyStyle>
+				<fill>0</fill>
+			</PolyStyle>
+		</Style>
+		<Style id="inline3">
+			<LineStyle>
+				<color>ffff00aa</color>
+				<width>3</width>
+			</LineStyle>
+			<PolyStyle>
+				<fill>0</fill>
+			</PolyStyle>
+		</Style>
+		<Style id="inline30">
+			<LineStyle>
+				<color>ffff00aa</color>
+				<width>3</width>
+			</LineStyle>
+			<PolyStyle>
+				<fill>0</fill>
+			</PolyStyle>
+		</Style>
+		<Style id="inline300">
+			<LineStyle>
+				<color>ffff00aa</color>
+				<width>3</width>
+			</LineStyle>
+			<PolyStyle>
+				<fill>0</fill>
+			</PolyStyle>
+		</Style>
+		<Style id="inline301">
+			<LineStyle>
+				<color>ffff00aa</color>
+				<width>3</width>
+			</LineStyle>
+			<PolyStyle>
+				<fill>0</fill>
+			</PolyStyle>
+		</Style>
+		<Style id="inline302">
+			<LineStyle>
+				<color>ffff00aa</color>
+				<width>3</width>
+			</LineStyle>
+			<PolyStyle>
+				<fill>0</fill>
+			</PolyStyle>
+		</Style>
+		<Style id="inline4">
+			<LineStyle>
+				<color>ffffff00</color>
+				<width>3</width>
+			</LineStyle>
+			<PolyStyle>
+				<fill>0</fill>
+			</PolyStyle>
+		</Style>
+		<StyleMap id="inline40">
+			<Pair>
+				<key>normal</key>
+				<styleUrl>#inline50</styleUrl>
+			</Pair>
+			<Pair>
+				<key>highlight</key>
+				<styleUrl>#inline20</styleUrl>
+			</Pair>
+		</StyleMap>
+		<Style id="inline41">
+			<LineStyle>
+				<color>ffff00aa</color>
+				<width>3</width>
+			</LineStyle>
+			<PolyStyle>
+				<fill>0</fill>
+			</PolyStyle>
+		</Style>
+		<Style id="inline410">
+			<LineStyle>
+				<color>ffff00aa</color>
+				<width>3</width>
+			</LineStyle>
+			<PolyStyle>
+				<fill>0</fill>
+			</PolyStyle>
+		</Style>
+		<StyleMap id="inline4100">
+			<Pair>
+				<key>normal</key>
+				<styleUrl>#inline140</styleUrl>
+			</Pair>
+			<Pair>
+				<key>highlight</key>
+				<styleUrl>#inline01</styleUrl>
+			</Pair>
+		</StyleMap>
+		<Style id="inline411">
+			<LineStyle>
+				<color>ffff00aa</color>
+				<width>3</width>
+			</LineStyle>
+			<PolyStyle>
+				<fill>0</fill>
+			</PolyStyle>
+		</Style>
+		<StyleMap id="inline5">
+			<Pair>
+				<key>normal</key>
+				<styleUrl>#inline30</styleUrl>
+			</Pair>
+			<Pair>
+				<key>highlight</key>
+				<styleUrl>#inline411</styleUrl>
+			</Pair>
+		</StyleMap>
+		<Style id="inline50">
+			<LineStyle>
+				<color>ffff00aa</color>
+				<width>3</width>
+			</LineStyle>
+			<PolyStyle>
+				<fill>0</fill>
+			</PolyStyle>
+		</Style>
+		<StyleMap id="inline51">
+			<Pair>
+				<key>normal</key>
+				<styleUrl>#inline301</styleUrl>
+			</Pair>
+			<Pair>
+				<key>highlight</key>
+				<styleUrl>#inline41</styleUrl>
+			</Pair>
+		</StyleMap>
+		<StyleMap id="inline52">
+			<Pair>
+				<key>normal</key>
+				<styleUrl>#inline302</styleUrl>
+			</Pair>
+			<Pair>
+				<key>highlight</key>
+				<styleUrl>#inline410</styleUrl>
+			</Pair>
+		</StyleMap>
+		<Style id="inline6">
+			<LineStyle>
+				<color>ffff00aa</color>
+				<width>3</width>
+			</LineStyle>
+			<PolyStyle>
+				<fill>0</fill>
+			</PolyStyle>
+		</Style>
+		<StyleMap id="inline7">
+			<Pair>
+				<key>normal</key>
+				<styleUrl>#inline</styleUrl>
+			</Pair>
+			<Pair>
+				<key>highlight</key>
+				<styleUrl>#inline14</styleUrl>
+			</Pair>
+		</StyleMap>
+		<StyleMap id="inline70">
+			<Pair>
+				<key>normal</key>
+				<styleUrl>#inline4</styleUrl>
+			</Pair>
+			<Pair>
+				<key>highlight</key>
+				<styleUrl>#inline02</styleUrl>
+			</Pair>
+		</StyleMap>
+		<StyleMap id="inline8">
+			<Pair>
+				<key>normal</key>
+				<styleUrl>#inline10</styleUrl>
+			</Pair>
+			<Pair>
+				<key>highlight</key>
+				<styleUrl>#inline9</styleUrl>
+			</Pair>
+		</StyleMap>
+		<Style id="inline9">
+			<LineStyle>
+				<color>ffff00aa</color>
+				<width>3</width>
+			</LineStyle>
+			<PolyStyle>
+				<fill>0</fill>
+			</PolyStyle>
+		</Style>
+		<StyleMap id="msn_grn-pushpin">
+			<Pair>
+				<key>normal</key>
+				<styleUrl>#sn_grn-pushpin</styleUrl>
+			</Pair>
+			<Pair>
+				<key>highlight</key>
+				<styleUrl>#sh_grn-pushpin</styleUrl>
+			</Pair>
+		</StyleMap>
+		<StyleMap id="msn_placemark_square">
+			<Pair>
+				<key>normal</key>
+				<styleUrl>#sn_placemark_square</styleUrl>
+			</Pair>
+			<Pair>
+				<key>highlight</key>
+				<styleUrl>#sh_placemark_square_highlight</styleUrl>
+			</Pair>
+		</StyleMap>
+		<StyleMap id="msn_ylw-pushpin0">
+			<Pair>
+				<key>normal</key>
+				<styleUrl>#sn_ylw-pushpin0</styleUrl>
+			</Pair>
+			<Pair>
+				<key>highlight</key>
+				<styleUrl>#sh_ylw-pushpin</styleUrl>
+			</Pair>
+		</StyleMap>
+		<StyleMap id="msn_ylw-pushpin">
+			<Pair>
+				<key>normal</key>
+				<styleUrl>#sn_ylw-pushpin</styleUrl>
+			</Pair>
+			<Pair>
+				<key>highlight</key>
+				<styleUrl>#sh_ylw-pushpin0</styleUrl>
+			</Pair>
+		</StyleMap>
+		<Style id="sh_grn-pushpin">
+			<IconStyle>
+				<scale>1.44</scale>
+				<Icon>
+					<href>http://maps.google.com/mapfiles/kml/pushpin/grn-pushpin.png</href>
+				</Icon>
+				<hotSpot x="20" y="2" xunits="pixels" yunits="pixels"></hotSpot>
+			</IconStyle>
+		</Style>
+		<Style id="sh_placemark_square_highlight">
+			<IconStyle>
+				<scale>1.2</scale>
+				<Icon>
+					<href>http://maps.google.com/mapfiles/kml/pushpin/grn-pushpin.png</href>
+				</Icon>
+				<hotSpot x="20" y="2" xunits="pixels" yunits="pixels"></hotSpot>
+			</IconStyle>
+		</Style>
+		<Style id="sh_ylw-pushpin">
+			<IconStyle>
+				<scale>1.3</scale>
+				<Icon>
+					<href>http://maps.google.com/mapfiles/kml/pushpin/ylw-pushpin.png</href>
+				</Icon>
+				<hotSpot x="20" y="2" xunits="pixels" yunits="pixels"></hotSpot>
+			</IconStyle>
+			<BalloonStyle>
+		</BalloonStyle>
+		</Style>
+		<Style id="sh_ylw-pushpin0">
+			<IconStyle>
+				<scale>1.3</scale>
+				<Icon>
+					<href>http://maps.google.com/mapfiles/kml/pushpin/ylw-pushpin.png</href>
+				</Icon>
+				<hotSpot x="20" y="2" xunits="pixels" yunits="pixels"></hotSpot>
+			</IconStyle>
+			<BalloonStyle>
+		</BalloonStyle>
+		</Style>
+		<Style id="sn_grn-pushpin">
+			<IconStyle>
+				<scale>1.2</scale>
+				<Icon>
+					<href>http://maps.google.com/mapfiles/kml/pushpin/grn-pushpin.png</href>
+				</Icon>
+				<hotSpot x="20" y="2" xunits="pixels" yunits="pixels"></hotSpot>
+			</IconStyle>
+		</Style>
+		<Style id="sn_placemark_square">
+			<IconStyle>
+				<scale>1.2</scale>
+				<Icon>
+					<href>http://maps.google.com/mapfiles/kml/pushpin/grn-pushpin.png</href>
+				</Icon>
+				<hotSpot x="20" y="2" xunits="pixels" yunits="pixels"></hotSpot>
+			</IconStyle>
+		</Style>
+		<Style id="sn_ylw-pushpin">
+			<IconStyle>
+				<scale>1.1</scale>
+				<Icon>
+					<href>http://maps.google.com/mapfiles/kml/pushpin/ylw-pushpin.png</href>
+				</Icon>
+				<hotSpot x="20" y="2" xunits="pixels" yunits="pixels"></hotSpot>
+			</IconStyle>
+			<BalloonStyle>
+		</BalloonStyle>
+		</Style>
+		<Style id="sn_ylw-pushpin0">
+			<IconStyle>
+				<scale>1.1</scale>
+				<Icon>
+					<href>http://maps.google.com/mapfiles/kml/pushpin/ylw-pushpin.png</href>
+				</Icon>
+				<hotSpot x="20" y="2" xunits="pixels" yunits="pixels"></hotSpot>
+			</IconStyle>
+			<BalloonStyle>
+		</BalloonStyle>
+		</Style>
+		<Style id="sub_transmission4000">
+			<LineStyle>
+				<color>ffff00aa</color>
+				<width>3</width>
+			</LineStyle>
+			<PolyStyle>
+				<fill>0</fill>
+			</PolyStyle>
+		</Style>
+		<Style id="sub_transmission40000">
+			<LineStyle>
+				<color>ffff00aa</color>
+				<width>3</width>
+			</LineStyle>
+			<PolyStyle>
+				<fill>0</fill>
+			</PolyStyle>
+		</Style>
+		<Style id="sub_transmission40001">
+			<LineStyle>
+				<color>ffff00aa</color>
+				<width>3</width>
+			</LineStyle>
+			<PolyStyle>
+				<fill>0</fill>
+			</PolyStyle>
+		</Style>
+		<StyleMap id="sub_transmission400010">
+			<Pair>
+				<key>normal</key>
+				<styleUrl>#sub_transmission400070</styleUrl>
+			</Pair>
+			<Pair>
+				<key>highlight</key>
+				<styleUrl>#sub_transmission400050</styleUrl>
+			</Pair>
+		</StyleMap>
+		<Style id="sub_transmission400011">
+			<LineStyle>
+				<color>ffff00aa</color>
+				<width>3</width>
+			</LineStyle>
+			<PolyStyle>
+				<fill>0</fill>
+			</PolyStyle>
+		</Style>
+		<StyleMap id="sub_transmission400012">
+			<Pair>
+				<key>normal</key>
+				<styleUrl>#sub_transmission400035</styleUrl>
+			</Pair>
+			<Pair>
+				<key>highlight</key>
+				<styleUrl>#sub_transmission400039</styleUrl>
+			</Pair>
+		</StyleMap>
+		<Style id="sub_transmission400013">
+			<LineStyle>
+				<color>ffff00aa</color>
+				<width>3</width>
+			</LineStyle>
+			<PolyStyle>
+				<fill>0</fill>
+			</PolyStyle>
+		</Style>
+		<Style id="sub_transmission400014">
+			<LineStyle>
+				<color>ffff00aa</color>
+				<width>3</width>
+			</LineStyle>
+			<PolyStyle>
+				<fill>0</fill>
+			</PolyStyle>
+		</Style>
+		<Style id="sub_transmission400015">
+			<LineStyle>
+				<color>ffff00aa</color>
+				<width>3</width>
+			</LineStyle>
+			<PolyStyle>
+				<fill>0</fill>
+			</PolyStyle>
+		</Style>
+		<StyleMap id="sub_transmission400016">
+			<Pair>
+				<key>normal</key>
+				<styleUrl>#sub_transmission400067</styleUrl>
+			</Pair>
+			<Pair>
+				<key>highlight</key>
+				<styleUrl>#sub_transmission400056</styleUrl>
+			</Pair>
+		</StyleMap>
+		<StyleMap id="sub_transmission400017">
+			<Pair>
+				<key>normal</key>
+				<styleUrl>#sub_transmission400028</styleUrl>
+			</Pair>
+			<Pair>
+				<key>highlight</key>
+				<styleUrl>#sub_transmission400025</styleUrl>
+			</Pair>
+		</StyleMap>
+		<StyleMap id="sub_transmission400018">
+			<Pair>
+				<key>normal</key>
+				<styleUrl>#sub_transmission400043</styleUrl>
+			</Pair>
+			<Pair>
+				<key>highlight</key>
+				<styleUrl>#sub_transmission400037</styleUrl>
+			</Pair>
+		</StyleMap>
+		<Style id="sub_transmission400019">
+			<LineStyle>
+				<color>ffff00aa</color>
+				<width>3</width>
+			</LineStyle>
+			<PolyStyle>
+				<fill>0</fill>
+			</PolyStyle>
+		</Style>
+		<Style id="sub_transmission40002">
+			<LineStyle>
+				<color>ffff00aa</color>
+				<width>3</width>
+			</LineStyle>
+			<PolyStyle>
+				<fill>0</fill>
+			</PolyStyle>
+		</Style>
+		<StyleMap id="sub_transmission400020">
+			<Pair>
+				<key>normal</key>
+				<styleUrl>#sub_transmission400015</styleUrl>
+			</Pair>
+			<Pair>
+				<key>highlight</key>
+				<styleUrl>#sub_transmission400013</styleUrl>
+			</Pair>
+		</StyleMap>
+		<StyleMap id="sub_transmission400021">
+			<Pair>
+				<key>normal</key>
+				<styleUrl>#sub_transmission40003</styleUrl>
+			</Pair>
+			<Pair>
+				<key>highlight</key>
+				<styleUrl>#sub_transmission4000</styleUrl>
+			</Pair>
+		</StyleMap>
+		<Style id="sub_transmission400022">
+			<LineStyle>
+				<color>ffff00aa</color>
+				<width>3</width>
+			</LineStyle>
+			<PolyStyle>
+				<fill>0</fill>
+			</PolyStyle>
+		</Style>
+		<Style id="sub_transmission400023">
+			<LineStyle>
+				<color>ffff00aa</color>
+				<width>3</width>
+			</LineStyle>
+			<PolyStyle>
+				<fill>0</fill>
+			</PolyStyle>
+		</Style>
+		<Style id="sub_transmission400024">
+			<LineStyle>
+				<color>ffff00aa</color>
+				<width>3</width>
+			</LineStyle>
+			<PolyStyle>
+				<fill>0</fill>
+			</PolyStyle>
+		</Style>
+		<Style id="sub_transmission400025">
+			<LineStyle>
+				<color>ffff00aa</color>
+				<width>3</width>
+			</LineStyle>
+			<PolyStyle>
+				<fill>0</fill>
+			</PolyStyle>
+		</Style>
+		<Style id="sub_transmission400026">
+			<LineStyle>
+				<color>ffff00aa</color>
+				<width>3</width>
+			</LineStyle>
+			<PolyStyle>
+				<fill>0</fill>
+			</PolyStyle>
+		</Style>
+		<StyleMap id="sub_transmission400027">
+			<Pair>
+				<key>normal</key>
+				<styleUrl>#sub_transmission400049</styleUrl>
+			</Pair>
+			<Pair>
+				<key>highlight</key>
+				<styleUrl>#sub_transmission400053</styleUrl>
+			</Pair>
+		</StyleMap>
+		<Style id="sub_transmission400028">
+			<LineStyle>
+				<color>ffff00aa</color>
+				<width>3</width>
+			</LineStyle>
+			<PolyStyle>
+				<fill>0</fill>
+			</PolyStyle>
+		</Style>
+		<Style id="sub_transmission400029">
+			<LineStyle>
+				<color>ffff00aa</color>
+				<width>3</width>
+			</LineStyle>
+			<PolyStyle>
+				<fill>0</fill>
+			</PolyStyle>
+		</Style>
+		<Style id="sub_transmission40003">
+			<LineStyle>
+				<color>ffff00aa</color>
+				<width>3</width>
+			</LineStyle>
+			<PolyStyle>
+				<fill>0</fill>
+			</PolyStyle>
+		</Style>
+		<Style id="sub_transmission400030">
+			<LineStyle>
+				<color>ffff00aa</color>
+				<width>3</width>
+			</LineStyle>
+			<PolyStyle>
+				<fill>0</fill>
+			</PolyStyle>
+		</Style>
+		<StyleMap id="sub_transmission400031">
+			<Pair>
+				<key>normal</key>
+				<styleUrl>#sub_transmission400034</styleUrl>
+			</Pair>
+			<Pair>
+				<key>highlight</key>
+				<styleUrl>#sub_transmission400033</styleUrl>
+			</Pair>
+		</StyleMap>
+		<StyleMap id="sub_transmission400032">
+			<Pair>
+				<key>normal</key>
+				<styleUrl>#sub_transmission400068</styleUrl>
+			</Pair>
+			<Pair>
+				<key>highlight</key>
+				<styleUrl>#sub_transmission400065</styleUrl>
+			</Pair>
+		</StyleMap>
+		<Style id="sub_transmission400033">
+			<LineStyle>
+				<color>ffff00aa</color>
+				<width>3</width>
+			</LineStyle>
+			<PolyStyle>
+				<fill>0</fill>
+			</PolyStyle>
+		</Style>
+		<Style id="sub_transmission400034">
+			<LineStyle>
+				<color>ffff00aa</color>
+				<width>3</width>
+			</LineStyle>
+			<PolyStyle>
+				<fill>0</fill>
+			</PolyStyle>
+		</Style>
+		<Style id="sub_transmission400035">
+			<LineStyle>
+				<color>ffff00aa</color>
+				<width>3</width>
+			</LineStyle>
+			<PolyStyle>
+				<fill>0</fill>
+			</PolyStyle>
+		</Style>
+		<StyleMap id="sub_transmission400036">
+			<Pair>
+				<key>normal</key>
+				<styleUrl>#sub_transmission400024</styleUrl>
+			</Pair>
+			<Pair>
+				<key>highlight</key>
+				<styleUrl>#sub_transmission400029</styleUrl>
+			</Pair>
+		</StyleMap>
+		<Style id="sub_transmission400037">
+			<LineStyle>
+				<color>ffff00aa</color>
+				<width>3</width>
+			</LineStyle>
+			<PolyStyle>
+				<fill>0</fill>
+			</PolyStyle>
+		</Style>
+		<Style id="sub_transmission400038">
+			<LineStyle>
+				<color>ffff00aa</color>
+				<width>3</width>
+			</LineStyle>
+			<PolyStyle>
+				<fill>0</fill>
+			</PolyStyle>
+		</Style>
+		<Style id="sub_transmission400039">
+			<LineStyle>
+				<color>ffff00aa</color>
+				<width>3</width>
+			</LineStyle>
+			<PolyStyle>
+				<fill>0</fill>
+			</PolyStyle>
+		</Style>
+		<Style id="sub_transmission40004">
+			<LineStyle>
+				<color>ffff00aa</color>
+				<width>3</width>
+			</LineStyle>
+			<PolyStyle>
+				<fill>0</fill>
+			</PolyStyle>
+		</Style>
+		<StyleMap id="sub_transmission400040">
+			<Pair>
+				<key>normal</key>
+				<styleUrl>#sub_transmission40004</styleUrl>
+			</Pair>
+			<Pair>
+				<key>highlight</key>
+				<styleUrl>#sub_transmission40000</styleUrl>
+			</Pair>
+		</StyleMap>
+		<Style id="sub_transmission400041">
+			<LineStyle>
+				<color>ffff00aa</color>
+				<width>3</width>
+			</LineStyle>
+			<PolyStyle>
+				<fill>0</fill>
+			</PolyStyle>
+		</Style>
+		<StyleMap id="sub_transmission400042">
+			<Pair>
+				<key>normal</key>
+				<styleUrl>#sub_transmission400057</styleUrl>
+			</Pair>
+			<Pair>
+				<key>highlight</key>
+				<styleUrl>#sub_transmission400060</styleUrl>
+			</Pair>
+		</StyleMap>
+		<Style id="sub_transmission400043">
+			<LineStyle>
+				<color>ffff00aa</color>
+				<width>3</width>
+			</LineStyle>
+			<PolyStyle>
+				<fill>0</fill>
+			</PolyStyle>
+		</Style>
+		<Style id="sub_transmission400044">
+			<LineStyle>
+				<color>ffff00aa</color>
+				<width>3</width>
+			</LineStyle>
+			<PolyStyle>
+				<fill>0</fill>
+			</PolyStyle>
+		</Style>
+		<Style id="sub_transmission400045">
+			<LineStyle>
+				<color>ffff00aa</color>
+				<width>3</width>
+			</LineStyle>
+			<PolyStyle>
+				<fill>0</fill>
+			</PolyStyle>
+		</Style>
+		<Style id="sub_transmission400046">
+			<LineStyle>
+				<color>ffff00aa</color>
+				<width>3</width>
+			</LineStyle>
+			<PolyStyle>
+				<fill>0</fill>
+			</PolyStyle>
+		</Style>
+		<Style id="sub_transmission400047">
+			<LineStyle>
+				<color>ffff00aa</color>
+				<width>3</width>
+			</LineStyle>
+			<PolyStyle>
+				<fill>0</fill>
+			</PolyStyle>
+		</Style>
+		<StyleMap id="sub_transmission400048">
+			<Pair>
+				<key>normal</key>
+				<styleUrl>#sub_transmission400019</styleUrl>
+			</Pair>
+			<Pair>
+				<key>highlight</key>
+				<styleUrl>#sub_transmission40005</styleUrl>
+			</Pair>
+		</StyleMap>
+		<Style id="sub_transmission400049">
+			<LineStyle>
+				<color>ffff00aa</color>
+				<width>3</width>
+			</LineStyle>
+			<PolyStyle>
+				<fill>0</fill>
+			</PolyStyle>
+		</Style>
+		<Style id="sub_transmission40005">
+			<LineStyle>
+				<color>ffff00aa</color>
+				<width>3</width>
+			</LineStyle>
+			<PolyStyle>
+				<fill>0</fill>
+			</PolyStyle>
+		</Style>
+		<Style id="sub_transmission400050">
+			<LineStyle>
+				<color>ffff00aa</color>
+				<width>3</width>
+			</LineStyle>
+			<PolyStyle>
+				<fill>0</fill>
+			</PolyStyle>
+		</Style>
+		<StyleMap id="sub_transmission400051">
+			<Pair>
+				<key>normal</key>
+				<styleUrl>#sub_transmission400011</styleUrl>
+			</Pair>
+			<Pair>
+				<key>highlight</key>
+				<styleUrl>#sub_transmission400014</styleUrl>
+			</Pair>
+		</StyleMap>
+		<Style id="sub_transmission400052">
+			<LineStyle>
+				<color>ffff00aa</color>
+				<width>3</width>
+			</LineStyle>
+			<PolyStyle>
+				<fill>0</fill>
+			</PolyStyle>
+		</Style>
+		<Style id="sub_transmission400053">
+			<LineStyle>
+				<color>ffff00aa</color>
+				<width>3</width>
+			</LineStyle>
+			<PolyStyle>
+				<fill>0</fill>
+			</PolyStyle>
+		</Style>
+		<StyleMap id="sub_transmission400054">
+			<Pair>
+				<key>normal</key>
+				<styleUrl>#sub_transmission40002</styleUrl>
+			</Pair>
+			<Pair>
+				<key>highlight</key>
+				<styleUrl>#sub_transmission40001</styleUrl>
+			</Pair>
+		</StyleMap>
+		<StyleMap id="sub_transmission400055">
+			<Pair>
+				<key>normal</key>
+				<styleUrl>#sub_transmission400064</styleUrl>
+			</Pair>
+			<Pair>
+				<key>highlight</key>
+				<styleUrl>#sub_transmission400045</styleUrl>
+			</Pair>
+		</StyleMap>
+		<Style id="sub_transmission400056">
+			<LineStyle>
+				<color>ffff00aa</color>
+				<width>3</width>
+			</LineStyle>
+			<PolyStyle>
+				<fill>0</fill>
+			</PolyStyle>
+		</Style>
+		<Style id="sub_transmission400057">
+			<LineStyle>
+				<color>ffff00aa</color>
+				<width>3</width>
+			</LineStyle>
+			<PolyStyle>
+				<fill>0</fill>
+			</PolyStyle>
+		</Style>
+		<Style id="sub_transmission400058">
+			<LineStyle>
+				<color>ffff00aa</color>
+				<width>3</width>
+			</LineStyle>
+			<PolyStyle>
+				<fill>0</fill>
+			</PolyStyle>
+		</Style>
+		<Style id="sub_transmission400059">
+			<LineStyle>
+				<color>ffff00aa</color>
+				<width>3</width>
+			</LineStyle>
+			<PolyStyle>
+				<fill>0</fill>
+			</PolyStyle>
+		</Style>
+		<StyleMap id="sub_transmission40006">
+			<Pair>
+				<key>normal</key>
+				<styleUrl>#sub_transmission400041</styleUrl>
+			</Pair>
+			<Pair>
+				<key>highlight</key>
+				<styleUrl>#sub_transmission400026</styleUrl>
+			</Pair>
+		</StyleMap>
+		<Style id="sub_transmission400060">
+			<LineStyle>
+				<color>ffff00aa</color>
+				<width>3</width>
+			</LineStyle>
+			<PolyStyle>
+				<fill>0</fill>
+			</PolyStyle>
+		</Style>
+		<Style id="sub_transmission400061">
+			<LineStyle>
+				<color>ffff00aa</color>
+				<width>3</width>
+			</LineStyle>
+			<PolyStyle>
+				<fill>0</fill>
+			</PolyStyle>
+		</Style>
+		<Style id="sub_transmission400062">
+			<LineStyle>
+				<color>ffff00aa</color>
+				<width>3</width>
+			</LineStyle>
+			<PolyStyle>
+				<fill>0</fill>
+			</PolyStyle>
+		</Style>
+		<StyleMap id="sub_transmission400063">
+			<Pair>
+				<key>normal</key>
+				<styleUrl>#sub_transmission400058</styleUrl>
+			</Pair>
+			<Pair>
+				<key>highlight</key>
+				<styleUrl>#sub_transmission400052</styleUrl>
+			</Pair>
+		</StyleMap>
+		<Style id="sub_transmission400064">
+			<LineStyle>
+				<color>ffff00aa</color>
+				<width>3</width>
+			</LineStyle>
+			<PolyStyle>
+				<fill>0</fill>
+			</PolyStyle>
+		</Style>
+		<Style id="sub_transmission400065">
+			<LineStyle>
+				<color>ffff00aa</color>
+				<width>3</width>
+			</LineStyle>
+			<PolyStyle>
+				<fill>0</fill>
+			</PolyStyle>
+		</Style>
+		<Style id="sub_transmission400066">
+			<LineStyle>
+				<color>ffff00aa</color>
+				<width>3</width>
+			</LineStyle>
+			<PolyStyle>
+				<fill>0</fill>
+			</PolyStyle>
+		</Style>
+		<Style id="sub_transmission400067">
+			<LineStyle>
+				<color>ffff00aa</color>
+				<width>3</width>
+			</LineStyle>
+			<PolyStyle>
+				<fill>0</fill>
+			</PolyStyle>
+		</Style>
+		<Style id="sub_transmission400068">
+			<LineStyle>
+				<color>ffff00aa</color>
+				<width>3</width>
+			</LineStyle>
+			<PolyStyle>
+				<fill>0</fill>
+			</PolyStyle>
+		</Style>
+		<StyleMap id="sub_transmission400069">
+			<Pair>
+				<key>normal</key>
+				<styleUrl>#sub_transmission400044</styleUrl>
+			</Pair>
+			<Pair>
+				<key>highlight</key>
+				<styleUrl>#sub_transmission400059</styleUrl>
+			</Pair>
+		</StyleMap>
+		<Style id="sub_transmission40007">
+			<LineStyle>
+				<color>ffff00aa</color>
+				<width>3</width>
+			</LineStyle>
+			<PolyStyle>
+				<fill>0</fill>
+			</PolyStyle>
+		</Style>
+		<Style id="sub_transmission400070">
+			<LineStyle>
+				<color>ffff00aa</color>
+				<width>3</width>
+			</LineStyle>
+			<PolyStyle>
+				<fill>0</fill>
+			</PolyStyle>
+		</Style>
+		<StyleMap id="sub_transmission400071">
+			<Pair>
+				<key>normal</key>
+				<styleUrl>#sub_transmission400066</styleUrl>
+			</Pair>
+			<Pair>
+				<key>highlight</key>
+				<styleUrl>#sub_transmission400079</styleUrl>
+			</Pair>
+		</StyleMap>
+		<Style id="sub_transmission400072">
+			<LineStyle>
+				<color>ffff00aa</color>
+				<width>3</width>
+			</LineStyle>
+			<PolyStyle>
+				<fill>0</fill>
+			</PolyStyle>
+		</Style>
+		<Style id="sub_transmission400073">
+			<LineStyle>
+				<color>ffff00aa</color>
+				<width>3</width>
+			</LineStyle>
+			<PolyStyle>
+				<fill>0</fill>
+			</PolyStyle>
+		</Style>
+		<Style id="sub_transmission400074">
+			<LineStyle>
+				<color>ffff00aa</color>
+				<width>3</width>
+			</LineStyle>
+			<PolyStyle>
+				<fill>0</fill>
+			</PolyStyle>
+		</Style>
+		<StyleMap id="sub_transmission400075">
+			<Pair>
+				<key>normal</key>
+				<styleUrl>#sub_transmission400030</styleUrl>
+			</Pair>
+			<Pair>
+				<key>highlight</key>
+				<styleUrl>#sub_transmission400022</styleUrl>
+			</Pair>
+		</StyleMap>
+		<StyleMap id="sub_transmission400076">
+			<Pair>
+				<key>normal</key>
+				<styleUrl>#sub_transmission400061</styleUrl>
+			</Pair>
+			<Pair>
+				<key>highlight</key>
+				<styleUrl>#sub_transmission400062</styleUrl>
+			</Pair>
+		</StyleMap>
+		<StyleMap id="sub_transmission400077">
+			<Pair>
+				<key>normal</key>
+				<styleUrl>#sub_transmission400038</styleUrl>
+			</Pair>
+			<Pair>
+				<key>highlight</key>
+				<styleUrl>#sub_transmission400023</styleUrl>
+			</Pair>
+		</StyleMap>
+		<StyleMap id="sub_transmission400078">
+			<Pair>
+				<key>normal</key>
+				<styleUrl>#sub_transmission400046</styleUrl>
+			</Pair>
+			<Pair>
+				<key>highlight</key>
+				<styleUrl>#sub_transmission400047</styleUrl>
+			</Pair>
+		</StyleMap>
+		<Style id="sub_transmission400079">
+			<LineStyle>
+				<color>ffff00aa</color>
+				<width>3</width>
+			</LineStyle>
+			<PolyStyle>
+				<fill>0</fill>
+			</PolyStyle>
+		</Style>
+		<StyleMap id="sub_transmission40008">
+			<Pair>
+				<key>normal</key>
+				<styleUrl>#sub_transmission400074</styleUrl>
+			</Pair>
+			<Pair>
+				<key>highlight</key>
+				<styleUrl>#sub_transmission40007</styleUrl>
+			</Pair>
+		</StyleMap>
+		<StyleMap id="sub_transmission40009">
+			<Pair>
+				<key>normal</key>
+				<styleUrl>#sub_transmission400073</styleUrl>
+			</Pair>
+			<Pair>
+				<key>highlight</key>
+				<styleUrl>#sub_transmission400072</styleUrl>
+			</Pair>
+		</StyleMap>
+		<Folder>
+			<name>CAMBRIA</name>
+			<open>1</open>
+			<Folder>
+				<name>Substations</name>
+				<Placemark>
+					<name>GREEN HILL</name>
+					<Point>
+						<gx:drawOrder>1</gx:drawOrder>
+						<coordinates>-78.912476,40.323442,0</coordinates>
+					</Point>
+					<ExtendedData>
+						<SchemaData schemaUrl="&quot;#Substations&quot;">
+							<SimpleData name="NAME">GREEN HILL</SimpleData>
+							<SimpleData name="OBJECTID"></SimpleData>
+							<SimpleData name="ID"></SimpleData>
+							<SimpleData name="CITY">JOHNSTOWN</SimpleData>
+							<SimpleData name="STATE">PA</SimpleData>
+							<SimpleData name="ZIP">15902</SimpleData>
+							<SimpleData name="TYPE">DISTRIBUTION SUBSTATION</SimpleData>
+							<SimpleData name="OWNER">PENELEC</SimpleData>
+							<SimpleData name="STATUS">IN SERVICE</SimpleData>
+							<SimpleData name="COUNTY">CAMBRIA</SimpleData>
+							<SimpleData name="COUNTYFIPS">42021</SimpleData>
+							<SimpleData name="COUNTRY">USA</SimpleData>
+							<SimpleData name="LATITUDE">40.323442</SimpleData>
+							<SimpleData name="LONGITUDE">-78.912476</SimpleData>
+							<SimpleData name="NAICS_CODE">221121</SimpleData>
+							<SimpleData name="NAICS_DESC">ELECTRIC BULK POWER TRANSMISSION AND CONTROL</SimpleData>
+							<SimpleData name="SOURCE">IMAGERY</SimpleData>
+							<SimpleData name="SOURCEDATE">2023/10/22</SimpleData>
+							<SimpleData name="VAL_METHOD">IMAGERY</SimpleData>
+							<SimpleData name="VAL_DATE">2023/10/22</SimpleData>
+							<SimpleData name="LINES"></SimpleData>
+							<SimpleData name="MAX_VOLT">-1</SimpleData>
+							<SimpleData name="MIN_VOLT">-1</SimpleData>
+							<SimpleData name="CAPACITY">-1</SimpleData>
+							<SimpleData name="MAX_INFER">N</SimpleData>
+							<SimpleData name="MIN_INFER">N</SimpleData>
+							<SimpleData name="GlobalID"></SimpleData>
+						</SchemaData>
+					</ExtendedData>
+				</Placemark>
+				<Placemark>
+					<name>WESLEY CHAPEL</name>
+					<ExtendedData>
+						<SchemaData schemaUrl="&quot;#Substations&quot;">
+							<SimpleData name="OBJECTID"></SimpleData>
+							<SimpleData name="ID"></SimpleData>
+							<SimpleData name="CITY">EAST TAYLOR TWP</SimpleData>
+							<SimpleData name="STATE">PA</SimpleData>
+							<SimpleData name="ZIP">15909</SimpleData>
+							<SimpleData name="TYPE">DISTRIBUTION SUBSTATION</SimpleData>
+							<SimpleData name="STATUS">IN SERVICE</SimpleData>
+							<SimpleData name="COUNTY">CAMBRIA</SimpleData>
+							<SimpleData name="COUNTYFIPS">42021</SimpleData>
+							<SimpleData name="COUNTRY">USA</SimpleData>
+							<SimpleData name="LATITUDE">40.390860</SimpleData>
+							<SimpleData name="LONGITUDE">-78.862485</SimpleData>
+							<SimpleData name="NAICS_CODE">221121</SimpleData>
+							<SimpleData name="NAICS_DESC">ELECTRIC BULK POWER TRANSMISSION AND CONTROL</SimpleData>
+							<SimpleData name="SOURCE">OpenStreetMap</SimpleData>
+							<SimpleData name="SOURCEDATE">2021-01-05T00:00:00.000Z</SimpleData>
+							<SimpleData name="VAL_METHOD">IMAGERY</SimpleData>
+							<SimpleData name="VAL_DATE">2021-01-05T00:00:00.000Z</SimpleData>
+							<SimpleData name="LINES">0</SimpleData>
+							<SimpleData name="MAX_VOLT">-999999</SimpleData>
+							<SimpleData name="MIN_VOLT">-999999</SimpleData>
+							<SimpleData name="CAPACITY"></SimpleData>
+							<SimpleData name="MAX_INFER">NU</SimpleData>
+							<SimpleData name="MIN_INFER">NU</SimpleData>
+						</SchemaData>
+					</ExtendedData>
+					<Point>
+						<coordinates>-78.86248500000001,40.39086,0</coordinates>
+					</Point>
+				</Placemark>
+				<Placemark>
+					<name>CAMBRIA SLOPE</name>
+					<Point>
+						<gx:drawOrder>1</gx:drawOrder>
+						<coordinates>-78.697425,40.463151,0</coordinates>
+					</Point>
+					<ExtendedData>
+						<SchemaData schemaUrl="&quot;#Substations&quot;">
+							<SimpleData name="NAME">CAMBRIA SLOPE</SimpleData>
+							<SimpleData name="OBJECTID"></SimpleData>
+							<SimpleData name="ID"></SimpleData>
+							<SimpleData name="CITY">Ebensburg</SimpleData>
+							<SimpleData name="STATE">PA</SimpleData>
+							<SimpleData name="ZIP">15931</SimpleData>
+							<SimpleData name="TYPE">DISTRIBUTION SUBSTATION</SimpleData>
+							<SimpleData name="OWNER">PRISTINE RESOURCES</SimpleData>
+							<SimpleData name="STATUS">IN SERVICE</SimpleData>
+							<SimpleData name="COUNTY">CAMBRIA</SimpleData>
+							<SimpleData name="COUNTYFIPS">42021</SimpleData>
+							<SimpleData name="COUNTRY">USA</SimpleData>
+							<SimpleData name="LATITUDE">40.463151</SimpleData>
+							<SimpleData name="LONGITUDE">-78.697425</SimpleData>
+							<SimpleData name="NAICS_CODE">221121</SimpleData>
+							<SimpleData name="NAICS_DESC">ELECTRIC BULK POWER TRANSMISSION AND CONTROL</SimpleData>
+							<SimpleData name="SOURCE">IMAGERY</SimpleData>
+							<SimpleData name="SOURCEDATE">2023/10/22</SimpleData>
+							<SimpleData name="VAL_METHOD">IMAGERY</SimpleData>
+							<SimpleData name="VAL_DATE">2023/10/22</SimpleData>
+							<SimpleData name="LINES"></SimpleData>
+							<SimpleData name="MAX_VOLT">-1</SimpleData>
+							<SimpleData name="MIN_VOLT">-1</SimpleData>
+							<SimpleData name="CAPACITY">-1</SimpleData>
+							<SimpleData name="MAX_INFER">N</SimpleData>
+							<SimpleData name="MIN_INFER">N</SimpleData>
+							<SimpleData name="GlobalID"></SimpleData>
+						</SchemaData>
+					</ExtendedData>
+				</Placemark>
+			</Folder>
+			<Folder>
+				<name>Lines</name>
+				<Placemark>
+					<name>PA-CAMBRIA-L0001 (PENELEC, S, PENELEC, 34.5, REVLOC, EBENSBURG)</name>
+					<styleUrl>#sub_transmission400010</styleUrl>
+					<LineString>
+						<tessellate>1</tessellate>
+						<coordinates>
+						-78.76943638057332,40.49593595991323,0 -78.769713557893,40.49516517326612,0 -78.76984167411086,40.49441427002112,0 -78.77028633423393,40.49210741687307,0 -78.77073727608581,40.48987280390774,0 -78.76824557576954,40.48867325509222,0 -78.76570256517876,40.4875802697419,0 -78.76386696242115,40.48673137404788,0 -78.76264740614093,40.48626996675452,0 -78.76139339970467,40.48588330377842,0 -78.75989505684885,40.48530375959117,0 -78.75809065117382,40.48466019836901,0 -78.75586027883523,40.48385446215635,0 -78.75442393319999,40.48333844137476,0 -78.75313505619259,40.48288238882031,0 -78.74938378697281,40.48155781594809,0 -78.74682408883987,40.48162652950908,0 -78.74498402275982,40.48163312218308,0 -78.74215085549066,40.48165820795284,0 -78.73943903395669,40.48167134798436,0 -78.73763265694409,40.48170572065429,0 -78.73647777341831,40.48112578509861,0 -78.73582067263474,40.48081407374421,0 -78.73133420939004,40.48068364437479,0 -78.72827016238237,40.4808083356708,0 -78.72685012354187,40.48189693303355,0 
+					</coordinates>
+					</LineString>
+					<ExtendedData>
+						<SchemaData schemaUrl="&quot;#Distribution_Lines&quot;">
+							<SimpleData name="ID">PA-CAMBRIA-L0001</SimpleData>
+						</SchemaData>
+					</ExtendedData>
+				</Placemark>
+				<Placemark>
+					<name>PA-CAMBRIA-L0002 (PENELEC, S, PENELEC, 34.5, REVLOC, EBENSBURG)</name>
+					<styleUrl>#sub_transmission400010</styleUrl>
+					<LineString>
+						<tessellate>1</tessellate>
+						<coordinates>
+						-78.76943638057332,40.49593595991323,0 -78.769713557893,40.49516517326612,0 -78.76984167411086,40.49441427002112,0 -78.77028633423393,40.49210741687307,0 -78.77073727608581,40.48987280390774,0 -78.76824557576954,40.48867325509222,0 -78.76570256517876,40.4875802697419,0 -78.76386696242115,40.48673137404788,0 -78.76264740614093,40.48626996675452,0 -78.76139339970467,40.48588330377842,0 -78.75989505684885,40.48530375959117,0 -78.75809065117382,40.48466019836901,0 -78.75586027883523,40.48385446215635,0 -78.75442393319999,40.48333844137476,0 -78.75313505619259,40.48288238882031,0 -78.74938378697281,40.48155781594809,0 -78.74682408883987,40.48162652950908,0 -78.74498402275982,40.48163312218308,0 -78.74215085549066,40.48165820795284,0 -78.73943903395669,40.48167134798436,0 -78.73763265694409,40.48170572065429,0 -78.73647777341831,40.48112578509861,0 -78.73582067263474,40.48081407374421,0 -78.73133420939004,40.48068364437479,0 -78.72827016238237,40.4808083356708,0 -78.72685012354187,40.48189693303355,0 
+					</coordinates>
+					</LineString>
+					<ExtendedData>
+						<SchemaData schemaUrl="&quot;#Distribution_Lines&quot;">
+							<SimpleData name="ID">PA-CAMBRIA-L0002</SimpleData>
+						</SchemaData>
+					</ExtendedData>
+				</Placemark>
+				<Placemark>
+					<name>PA-CAMBRIA-L0003</name>
+					<styleUrl>#sub_transmission</styleUrl>
+					<LineString>
+						<tessellate>1</tessellate>
+						<coordinates>
+						-78.76943638057332,40.49593595991323,0 -78.769713557893,40.49516517326612,0 -78.76984167411086,40.49441427002112,0 -78.77028633423393,40.49210741687307,0 -78.77073727608581,40.48987280390774,0 -78.76824557576954,40.48867325509222,0 -78.76570256517876,40.4875802697419,0 -78.76386696242115,40.48673137404788,0 -78.76264740614093,40.48626996675452,0 -78.76139339970467,40.48588330377842,0 -78.75989505684885,40.48530375959117,0 -78.75809065117382,40.48466019836901,0 -78.75586027883523,40.48385446215635,0 -78.75442393319999,40.48333844137476,0 -78.75313505619259,40.48288238882031,0 -78.74938378697281,40.48155781594809,0 -78.74682408883987,40.48162652950908,0 -78.74498402275982,40.48163312218308,0 -78.74215085549066,40.48165820795284,0 -78.73943903395669,40.48167134798436,0 -78.73763265694409,40.48170572065429,0 -78.73647777341831,40.48112578509861,0 -78.73582067263474,40.48081407374421,0 -78.73133420939004,40.48068364437479,0 -78.72827016238237,40.4808083356708,0 -78.72685012354187,40.48189693303355,0 
+					</coordinates>
+					</LineString>
+					<ExtendedData>
+						<SchemaData schemaUrl="&quot;#Distribution_Lines&quot;">
+							<SimpleData name="ID">PA-CAMBRIA-L0003</SimpleData>
+							<SimpleData name="IOU">PENELEC</SimpleData>
+							<SimpleData name="TYPE">SUB_TRANSMISSION</SimpleData>
+							<SimpleData name="OWNER">PENELEC</SimpleData>
+							<SimpleData name="VOLTAGE">34.5</SimpleData>
+							<SimpleData name="VOLT_SOURCE">FERC</SimpleData>
+							<SimpleData name="INFERRED">N</SimpleData>
+							<SimpleData name="SUB">REVLOC</SimpleData>
+							<SimpleData name="SUB_2">EBENSBURG</SimpleData>
+							<SimpleData name="ANALYST">NU</SimpleData>
+							<SimpleData name="VAL_DATE">2023/10/22</SimpleData>
+							<SimpleData name="COUNTY">CAMBRIA</SimpleData>
+						</SchemaData>
+					</ExtendedData>
+				</Placemark>
+			</Folder>
+		</Folder>
+	</Document>
+</kml>
